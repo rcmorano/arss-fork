@@ -5,8 +5,17 @@ The [ARSS project page](http://arss.sourceforge.net/) says "ARSS is now supersed
 
 This repo is a fork of ARSS 0.2.3.
 
+## Requirements
 
-## Building
+RHEL/CentOS:
+
+    yum install fftw-devel
+    
+Debian/Ubuntu:
+
+    apt-get install libfftw3-dev
+
+## Building 
 
     cd src; cmake . && make
 
